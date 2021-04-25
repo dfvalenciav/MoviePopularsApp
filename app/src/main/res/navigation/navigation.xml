@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/moviePopular">
+
+    <fragment
+        android:id="@+id/moviePopular"
+        android:name="com.example.daval.moviepopularsapp.MoviePopular"
+        android:label="fragment_movie_popular"
+        tools:layout="@layout/fragment_movie_popular" >
+        <action
+            android:id="@+id/action_moviePopular_to_detalleActivity"
+            app:destination="@id/detalleActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detalleActivity"
+        android:name="com.example.daval.moviepopularsapp.DetalleActivity"
+        android:label="activity_detalle"
+        tools:layout="@layout/activity_detalle" />
+</navigation>
