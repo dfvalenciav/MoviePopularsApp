@@ -20,7 +20,7 @@
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme" />
-    </LinearLayout>
+
 
     <fragment
         android:id="@+id/fragment"
@@ -29,6 +29,8 @@
         android:layout_height="match_parent"
         app:defaultNavHost="true"
         app:navGraph="@navigation/navigation" />
+
+    </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view"
