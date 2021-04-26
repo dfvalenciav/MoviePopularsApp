@@ -4,13 +4,13 @@
     <item
         android:id="@+id/moviePopular"
         android:title="Listado"
-        android:icon="@drawable/movie"
+        android:icon="@drawable/cameras"
         />
 
     <item
         android:id="@+id/detalleActivity"
         android:title="Tu Pelicula"
-        android:icon="@drawable/camera"
+        android:icon="@drawable/crispetas"
         />
 
 </menu>
